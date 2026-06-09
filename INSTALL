@@ -1,0 +1,79 @@
+**How to Use FitForge on Your Phone**
+FitForge runs entirely in your browser — no App Store, no Google Play, no installation required. You can add it to your home screen and it will look and feel exactly like a native app.
+
+#Step 1 — Get your free API key
+FitForge uses AI to build your personal program. Each user connects their own AI account — this keeps the app free and your data private.
+
+Go to https://console.anthropic.com
+Create a free account (just an email + password)
+In the left sidebar, click "API Keys"
+Click "Create Key", give it any name (e.g. "FitForge")
+Copy the key — it starts with sk-ant-
+New accounts get $5 free credits — no credit card needed to start
+👉Keep this key somewhere safe. You'll paste it into the app on first launch.
+
+#Step 2 — Open the app
+Go to this link in your phone's browser:
+👉 https://fitforgeworkout.netlify.app
+Replace the link above with your actual Netlify / GitHub Pages / Vercel URL after you deploy it.
+
+#Step 3 — Add to Home Screen
+This makes FitForge open like a real app — full screen, no browser bar, with its own icon.
+
+iPhone / iPad (Safari)
+⚠️ Must use Safari — Chrome on iPhone does not support Add to Home Screen properly.
+
+Open the app link in Safari
+Tap the Share button at the bottom of the screen (the box with an arrow pointing up)
+Scroll down and tap "Add to Home Screen"
+Change the name to FitForge if you like
+Tap "Add" in the top right corner
+The FitForge icon will appear on your home screen
+Open it from there — it will launch full screen like a native app
+
+Android (Chrome)
+Open the app link in Chrome
+Tap the three dots menu in the top right corner
+Tap "Add to Home screen" or "Install app"
+Tap "Add" or "Install" to confirm
+The FitForge icon will appear on your home screen
+Open it from there — it will launch full screen
+
+Android (Samsung Internet)
+Open the app link in Samsung Internet
+Tap the menu icon at the bottom
+Tap "Add page to" → "Home screen"
+Tap "Add"
+
+#Step 4 — First launch
+Open FitForge from your home screen
+Paste your API key when prompted (the sk-ant-… key from Step 1)
+Complete the 8-step setup — takes about 2 minutes
+The AI will build your personal 12-week program
+
+**Your data**
+Everything is saved in your phone's browser storage
+Your API key never leaves your device
+If you clear your browser data or switch phones, use the Export button in the app first (Profile tab → Data → Export), then import it on your new device
+
+**Troubleshooting**
+"The AI isn't responding"
+Your API key may be invalid or your free credits may be used up. Go to console.anthropic.com to check your usage and add credits if needed.
+"The app reset and lost my data"
+Your browser storage was cleared. Always export your data before clearing browser history. Use Profile → Export to back up.
+"Add to Home Screen isn't appearing on iPhone"
+Make sure you're using Safari, not Chrome or Firefox. The option only appears in Safari on iPhone.
+"I want to use it on a different phone"
+Export your data from the old phone (Profile → Export → save the file), then open FitForge on the new phone, complete the API key setup, and import the file (Profile → Import).
+
+**FAQ**
+Is it really free?
+Hosting is free. The AI features use your own Anthropic account. New accounts get $5 free — enough for your full 12-week program setup plus weeks of daily coaching. After that, usage costs a few cents per month for typical use.
+Is my data private?
+Yes. Your workout data is stored only in your browser. Your API key is stored only in your browser. Nothing is sent to any server except your AI requests, which go directly from your phone to Anthropic.
+Can I use it on desktop too?
+Yes — open the same URL in any browser on any device. Your data is per-browser, so use Export/Import to move between devices.
+Does it work offline?
+The app loads offline once visited. AI features (program generation, chat, workout regeneration) need an internet connection. Everything else — viewing your program, logging sessions, timer — works offline.
+For women — how does cycle tracking work?
+If you select Female during setup, a Wellness tab appears with a period calendar and cycle phase tracker. Your 12-week program is automatically scheduled around your cycle — lighter sessions during your period, harder sessions at ovulation. You can adjust your cycle settings anytime in the Wellness tab.
